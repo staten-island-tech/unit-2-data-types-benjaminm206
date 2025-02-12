@@ -26,7 +26,7 @@ time_of_day = input("What month is it?")
  """
 # temperature thing
 
-""" x = "test"
+x = "test"
 print(f"hello {x}")
 
 temp = 75
@@ -35,14 +35,4 @@ if temp > 68:
 elif temp == 68:
     print('perfect')
 else:
-    print('cold') """
-
-# odd/even ifyer
-# if number ends in 0, 2, 4, 6, 8 --> number is even
-# else --> number is odd
-
-number = input("Insert a number")
-if number % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
+    print('cold')

@@ -6,5 +6,5 @@
 """ isRich = True
 is21 = True
 
-def canGamble(isRich, is 21):
+def canGamble(isRich, is21):
     if isRich == True and is21 == True """
