@@ -17,12 +17,31 @@ for i in range(1, number + 1):
         print(i) """
 
 # gcf-ifyer
+
+numfac1 = []
+numfac2 = []
+
 num1 = int(input("Insert the first number: "))
 num2 = int(input("Insert the second number: "))
+
 for i in range(1, num1 + 1):
     if num1 % i == 0:
-        print(i)
+        numfac1.append(i)
 
 for u in range(1, num2 + 1):
     if num2 % u == 0:
-        print(u)
+        numfac2.append(u)
+
+def gcf(numfac1, numfac2):
+    common_factor = set(numfac1) & set(numfac2)
+
+    if common_factor:
+        return max(common_factor)
+    else:
+        return None
+    
+result = gcf(numfac1, numfac2)
+if result is not None:
+    print(f"The GCF is {result}.")
+else:
+    print(f"No GCF found")
