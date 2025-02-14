@@ -41,7 +41,7 @@ def gcf(numfac1, numfac2):
         return None
     
 result = gcf(numfac1, numfac2)
-if result is not None:
+if result > 1:
     print(f"The GCF is {result}.")
-else:
+elif result < 1.1:
     print(f"No GCF found")
