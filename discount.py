@@ -13,7 +13,7 @@ while done == False:
         total = sum(addup)
         if total >= 100:
             print()
-            print("Since you spent at least $100, a 10 percent discount was applied. Your total is $")
+            print(f"Since you spent at least $100, a 10 percent discount was applied. Your total is $")
             print(total * 0.9)
             break
         else:

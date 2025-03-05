@@ -34,7 +34,7 @@ for u in range(1, num2 + 1):
 
 for g in range(1, num1):
     if num1 % g == True and num2 % i == True:
-        
+        print(num1 % g)
 
 #Compare the two lists
 #Find said greatest common factor
